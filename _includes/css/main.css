@@ -457,6 +457,6 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-#about {
+#about #portfolio .star-light{
     color: #000;
 }
