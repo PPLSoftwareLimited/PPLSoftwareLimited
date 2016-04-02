@@ -44,6 +44,7 @@ hr.star-primary {
     border: 0;
     border-top: solid 5px;
     text-align: center;
+    color: #000;
 }
 
 hr.star-light:after,
@@ -101,11 +102,13 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    color: #{{ site.color.secondary-dark }};
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    color: #{{ site.color.secondary-dark }};
 }
 
 @media(min-width:768px) {
@@ -180,7 +183,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    color: #{{ site.color.secondary-dark }};
     background: #{{ site.color.primary }};
 }
 
@@ -229,7 +232,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    color: #000;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
