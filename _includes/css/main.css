@@ -102,7 +102,7 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
-    color: #000;
+    color: #{{ site.color.secondary-dark }};
 }
 
 header .intro-text .skills {
@@ -183,7 +183,7 @@ section h2 {
 }
 
 section.success {
-    color: #000;
+    color: #{{ site.color.secondary-dark }};
     background: #{{ site.color.primary }};
 }
 
