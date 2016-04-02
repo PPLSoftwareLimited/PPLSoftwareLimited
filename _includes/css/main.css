@@ -108,7 +108,7 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
-    color: #000;
+    color: #{{ site.color.secondary-dark }};
 }
 
 @media(min-width:768px) {
